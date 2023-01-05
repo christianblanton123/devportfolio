@@ -5,13 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Christian Blanton</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <style>
+        img {
+            height: 400px;
+            width: 300px;
+            object-fit: contain;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,10 +35,7 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
+                <a href="index.html#education">Education</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
@@ -50,7 +54,7 @@
         <div id="lead-content">
             <h1>Christian Blanton</h1>
             <h2>Video Game Programmer</h2>
-            <a href="https://drive.google.com/file/d/1qQ-PY707IYRqtRwzax6SW-DiC8tNyytz/view?usp=sharing" target="_blank" class="btn-rounded-white">Download Resume</a>
+            <a href="https://drive.google.com/file/d/1qQ-PY707IYRqtRwzax6SW-DiC8tNyytz/view?usp=sharing" target="_blank" class="btn-rounded-white">Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -69,41 +73,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">Turtle Town</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hi!
-                        I'm Christian, and I have a passion for creating games. Currently, I am a student studying Computer Science with an emphasis in Games at the University of Southern California.
-                        Aside from playing and creating videogames, I enjoy playing basketball, working out, and classical music.
+                        Turtle Town is a 2D PC base-building game where players construct and defend a town on the back of a moving turtle.
+                        Key Features:
+                        Unique mechanics of city-building and tower defense combined with a strong focus on exploration – all on the back of a moving turtle!
+                        Beautifully crafted narrative that encourages deep and meaningful relationships with city’s residents.
+                        Explore a magical forest to gather resources, build and fortify your mobile city and keep citizens happy.
+
+                        USC Advanced Game Project; team of 25+ people.
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
-
-   
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Southern California</h3>
-            <span class="education-date">December 2022 - December 2023</span>
-            <h4>Master of Science in Computer Science</h4>
-            <p>
-
-            </p>
-        </div>
-        <div class="education-block">
-            <h3>University of Southern California</h3>
-            <span class="education-date">August 2020 - December 2022</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-
-            </p>
-        </div>
+       
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
@@ -114,7 +104,7 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/Unstoppaball_title_screen.png" />
+                        <img src="images/unstoppaball.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -122,7 +112,7 @@
                         <p>
                             I created art, programmed gameplay mechanics, and made impactful animations in Unstoppaball! It is a high-octane, side-scrolling platformer where you play as a wrecking ball that wreaks havoc upon everything and everyone.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="unstoppaball.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -138,7 +128,22 @@
                         <p>
                             I programmed combat and enemy AI behavior in the charming 2D base-building game titled Turtle Town!
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="turtletown.html">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/myriadmagnets.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Myriad Magnets</h3>
+                        <p>
+                            I programmed UI, graphics options, and particle/lighting VFX in the underwater puzzle game Myriad Magnets!
+                        </p>
+                        <a href="myriadmagnets.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -158,11 +163,14 @@
             <li>Python</li>
             <li>Unity Engine</li>
             <li>OpenGL</li>
+            <li>GLSL</li>
             <li>Perforce</li>
             <li>Git</li>
             <li>Autodesk Maya</li>
             <li>Source SDK</li>
             <li>Docker</li>
+            <li>Linear Algebra</li>
+            <li>Artificial Intelligence</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -204,10 +212,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/christianblanton123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/christian-blanton-8455ba221/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
