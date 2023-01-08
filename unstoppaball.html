@@ -86,19 +86,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Turtle Town</h2>
+                    <h2 class="heading">Unstoppaball</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Turtle Town is a 2D PC base-building game where players construct and defend a town on the back of a moving turtle.<br /><br />
-                        Key Features: <br />
-                        Unique mechanics of city-building and tower defense combined with a strong focus on exploration – all on the back of a moving turtle!<br />
-                        Beautifully crafted narrative that encourages deep and meaningful relationships with city’s residents.<br />
-                        Explore a magical forest to gather resources, build and fortify your mobile city and keep citizens happy.<br /><br />
-                        
-                        USC Advanced Game Project; team of 25+ people.<br />
-                        <em>Unity, Perforce, Git, C#</em><br />
-                        <a href="https://turtletown.itch.io/turtle-town">Itch Page</a>
+                        Unstoppaball is a 2D sidescrolling-platformer with high octane smashing and platforming!
+                        Play as a wrecking ball and smash everything in your path as fast as you can! Be careful not to get stuck against a wall; you'll get stopped! If this ever happens, try to get space from the wall and smash through it again.<br />
+                        <br />
+                        A collaboration with one other engineer and a 3-man audio team; team of 5 people.<br />
+                        <em>Unity, Perforce, C#</em><br />
+                        <a href="https://christian-blanton.itch.io/unstoppaball">Itch Page</a>
                     </p>
                 </div>
             </div>
@@ -114,34 +111,59 @@
             <p>
                 <ul>
                     <li>
-                        Implemented state-based AI for enemies including unique movement, attacking patterns including dashing and retreating, ability to steal resources
-                        from player, spawning and despawning functionality.
+                        Implemented physics-based platforming abilities including grappling hook, grappling pull, jump, dash, and helicopter float for core movement gameplay.
                     </li>
                     <li>
-                        Created enemies as specified by design team with unique targeting and melee/projectile attacks.
+                        Created 2D-sprite fragmentation scripts to give the impression of objects exploding upon impact.
                     </li>
                     <li>
-                        Coded scripts so enemies would properly play animations according to their current state.
+                        Coded scripts so characters would properly play animations according to their current state.
                     </li>
                     <li>
-                        Stored enemy data, states, decisions, and actions using scriptable objects.
+                        Optimized performance be deleting any debris or particles that went off screen.
                     </li>
                     <li>
-                        Created enemy spawners utilizing object pooling.
-                    </li>
-                    <li>
-                        Debugged building health/enemy interactions so enemies would properly attack and retreat.
+                        Implemented level navigation UI.
                     </li>
                 </ul>
             </p>
 
         </div>
-        <h3>3D Modeling</h3>
+        <h3>Level Design</h3>
         <div class="education-block">
             <p>
                 <ul>
                     <li>
-                        Modeled and animated the main character, Tortimer, in Autodesk Maya. Released a promotional video of this animation.
+                        Designed unique level layouts that eased the player into learning new abilities by ramping up difficulty in destroying buildings and increasing building density.
+                    </li>
+                    <li>
+                        Challenged the player to play without the jump ability on unique water level to encourage using other abilities.
+                    </li>
+                </ul>
+            </p>
+
+        </div>
+        <h3>Technical Art</h3>
+        <div class="education-block">
+            <p>
+                <ul>
+                    <li>
+                        Created the majority of the pixel art and animations in the game through Aseprite.
+                    </li>
+                    <li>
+                        Achieved a parallax background effect for each level to give sense of speed.
+                    </li>
+                    <li>
+                        Implemented particle systems to explosive crates, water towers, and fire hydrants to add explosions and water effects.
+                    </li>
+                    <li>
+                        Made reflective, rippling water using Shader Graph.
+                    </li>
+                    <li>
+                        Rendered the chain of the main character using TrailRenderer.
+                    </li>
+                    <li>
+                        Recorded gameplay and released trailer for the game in Premiere Pro.
                     </li>
                 </ul>
             </p>
@@ -152,10 +174,10 @@
             <p>
                 <ul>
                     <li>
-                        Actively participated in standups, team meetings, and AGILE sprint planning.
+                        Led and scheduled meetings between engineering and audio team.
                     </li>
                     <li>
-                        Effectively communicated among cross-disciplinary team members on relevant tasks.
+                        Gave feedback and direction on audio to suit the game. Integrated such audio into the product.
                     </li>
                 </ul>
             </p>
@@ -163,27 +185,10 @@
         <h2 class="heading">Trailer</h2>
         <div class="education-block">
             <p align="center">
-                <iframe height="315" src="https://www.youtube.com/embed/Ga3W-JJLRq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/qJ2yBvhn66E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </p>
 
         </div>
-        <h3>Code Sample</h3>
-        <div class="education-block">
-            <div class="gallery">
-                <a href="https://gyazo.com/0d3862919af86cfd762ee263c89803d1"><img src="https://i.gyazo.com/0d3862919af86cfd762ee263c89803d1.png" alt="Image from Gyazo" width="913" /></a>
-                <div class="desc">State Script Code. Essentially, it executes all the actions for it's appropriate controller (e.g. enemy) and checks if it should transition to another state based on decision satisfiability.</div>
-            </div>
-            <div class="gallery">
-                <a href="https://gyazo.com/1ee2398d00315505813823f9883df278"><img src="https://i.gyazo.com/1ee2398d00315505813823f9883df278.gif" alt="Image from Gyazo" /></a>
-                <div class="desc">An example of when the state script is used is when the Squirrelbots wander around and chase the player. I programmed Squirrelbots to wander until the character aggros them.</div>
-            </div>
-
-            <div class="gallery">
-                <a href="https://gyazo.com/5e96153e9be67abd2390621daa324400"><img src="https://i.gyazo.com/5e96153e9be67abd2390621daa324400.png" alt="Image from Gyazo" width="550" /></a>
-                <div class="desc">There are several states for each enemy, but here is an overview of the scriptable objects and layout of the Squirrelbot Wander state.</div>
-            </div>
-        </div>
-
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
@@ -192,21 +197,6 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/unstoppaball.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Unstoppaball</h3>
-                        <p>
-                            I created art, programmed gameplay mechanics, and made impactful animations in the side-scrolling platformer Unstoppaball!
-                        </p>
-                        <a href="unstoppaball.html#about">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">

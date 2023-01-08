@@ -86,19 +86,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Turtle Town</h2>
+                    <h2 class="heading">Mario Kart</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Turtle Town is a 2D PC base-building game where players construct and defend a town on the back of a moving turtle.<br /><br />
-                        Key Features: <br />
-                        Unique mechanics of city-building and tower defense combined with a strong focus on exploration – all on the back of a moving turtle!<br />
-                        Beautifully crafted narrative that encourages deep and meaningful relationships with city’s residents.<br />
-                        Explore a magical forest to gather resources, build and fortify your mobile city and keep citizens happy.<br /><br />
-                        
-                        USC Advanced Game Project; team of 25+ people.<br />
-                        <em>Unity, Perforce, Git, C#</em><br />
-                        <a href="https://turtletown.itch.io/turtle-town">Itch Page</a>
+                        This Mario Kart game, complete with an AI kart to race against, place and lap indicator, and, of course, ability to fall offstage on rainbow road was completed by me in a week in C++ as part of a video game programming class. In this class we were given skeleton code and had to implement many features from an existing C++ codebase. In addition to Mario Kart, I coded movement mechanics in a spinoff of the famous 3D parkour game Mirror's Edge.
+                        <br />
+                        Solo project<br />
+                        <em>Git, C++, SDL, 3D Math</em><br />
                     </p>
                 </div>
             </div>
@@ -114,73 +109,38 @@
             <p>
                 <ul>
                     <li>
-                        Implemented state-based AI for enemies including unique movement, attacking patterns including dashing and retreating, ability to steal resources
-                        from player, spawning and despawning functionality.
+                        Implemented vehicle controls (steering, acceleration, deceleration).
                     </li>
                     <li>
-                        Created enemies as specified by design team with unique targeting and melee/projectile attacks.
+                        Moved the camera in 3D space to give impression of speed and increased FOV when going fast.
                     </li>
                     <li>
-                        Coded scripts so enemies would properly play animations according to their current state.
+                        Created waypoints and utilized 3D math to assure that the AI would steer into each waypoint to complete laps.
                     </li>
                     <li>
-                        Stored enemy data, states, decisions, and actions using scriptable objects.
+                        Added ability to fall off the race track and respawn at a recent checkpoint.
                     </li>
                     <li>
-                        Created enemy spawners utilizing object pooling.
-                    </li>
-                    <li>
-                        Debugged building health/enemy interactions so enemies would properly attack and retreat.
+                        Integrated audio to play race start, normal laps, and last lap music.
                     </li>
                 </ul>
             </p>
 
         </div>
-        <h3>3D Modeling</h3>
-        <div class="education-block">
-            <p>
-                <ul>
-                    <li>
-                        Modeled and animated the main character, Tortimer, in Autodesk Maya. Released a promotional video of this animation.
-                    </li>
-                </ul>
-            </p>
-
-        </div>
-        <h3>Other</h3>
-        <div class="education-block">
-            <p>
-                <ul>
-                    <li>
-                        Actively participated in standups, team meetings, and AGILE sprint planning.
-                    </li>
-                    <li>
-                        Effectively communicated among cross-disciplinary team members on relevant tasks.
-                    </li>
-                </ul>
-            </p>
-        </div>
-        <h2 class="heading">Trailer</h2>
-        <div class="education-block">
-            <p align="center">
-                <iframe height="315" src="https://www.youtube.com/embed/Ga3W-JJLRq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </p>
-
-        </div>
-        <h3>Code Sample</h3>
+      
+        <h3>Features</h3>
         <div class="education-block">
             <div class="gallery">
-                <a href="https://gyazo.com/0d3862919af86cfd762ee263c89803d1"><img src="https://i.gyazo.com/0d3862919af86cfd762ee263c89803d1.png" alt="Image from Gyazo" width="913" /></a>
-                <div class="desc">State Script Code. Essentially, it executes all the actions for it's appropriate controller (e.g. enemy) and checks if it should transition to another state based on decision satisfiability.</div>
+                <a href="https://gyazo.com/042dd352e290427250fd580595a204ea"><img src="https://i.gyazo.com/042dd352e290427250fd580595a204ea.gif" alt="Image from Gyazo" width="996" /></a>
+                <div class="desc">Camera changes on going fast</div>
             </div>
             <div class="gallery">
-                <a href="https://gyazo.com/1ee2398d00315505813823f9883df278"><img src="https://i.gyazo.com/1ee2398d00315505813823f9883df278.gif" alt="Image from Gyazo" /></a>
-                <div class="desc">An example of when the state script is used is when the Squirrelbots wander around and chase the player. I programmed Squirrelbots to wander until the character aggros them.</div>
+                <a href="https://gyazo.com/d45612f6eeffbc47c25e14c78a689823"><img src="https://i.gyazo.com/d45612f6eeffbc47c25e14c78a689823.gif" alt="Image from Gyazo" width="974" /></a>
+                <div class="desc">Fall off racetrack and respawn at checkpoint.</div>
             </div>
-
             <div class="gallery">
-                <a href="https://gyazo.com/5e96153e9be67abd2390621daa324400"><img src="https://i.gyazo.com/5e96153e9be67abd2390621daa324400.png" alt="Image from Gyazo" width="550" /></a>
-                <div class="desc">There are several states for each enemy, but here is an overview of the scriptable objects and layout of the Squirrelbot Wander state.</div>
+                <a href="https://gyazo.com/c1a13c651386eb4716b7d919baedfcfb"><img src="https://i.gyazo.com/c1a13c651386eb4716b7d919baedfcfb.gif" alt="Image from Gyazo" width="966" /></a>
+                <div class="desc">Accurate position indicator. In this example, went from 2nd to 1st place.</div>
             </div>
         </div>
 
@@ -225,21 +185,6 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <a href="https://gyazo.com/8ace36c5b3fc9ea9b0b208549872c4d3"><img src="https://i.gyazo.com/8ace36c5b3fc9ea9b0b208549872c4d3.png" alt="Image from Gyazo" width="1019" /></a>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Mario Kart</h3>
-                        <p>
-                            I programmed vehicle controls for players and CPUs in my version of Mario Kart!
-                        </p>
-                        <a href="mariokart.html#about">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
                         <img src="images/OPENGL.jpg" />
                     </div>
                     <!-- End .project-image -->
@@ -248,7 +193,7 @@
                         <p>
                             Check out my raytracer, rollercoaster, and heightmap built in OpenGL!
                         </p>
-                        <a href="opengl.html#about">View Project</a>
+                        <a href="opengl#about.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -263,7 +208,7 @@
                         <p>
                             I programmed UI, graphics options, and particle/lighting VFX in the underwater puzzle game Myriad Magnets!
                         </p>
-                        <a href="myriadmagnets.html#about">View Project</a>
+                        <a href="myriadmagnets.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
