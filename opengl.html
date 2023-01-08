@@ -86,14 +86,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Mario Kart</h2>
+                    <h2 class="heading">OpenGL Stuff</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        This Mario Kart game, complete with an AI kart to race against, place and lap indicator, and, of course, ability to fall offstage on rainbow road was completed by me in a week in C++ as part of a video game programming class. In this class we were given skeleton code and had to implement many features from an existing C++ codebase. In addition to Mario Kart, I coded movement mechanics in a spinoff of the famous 3D parkour game Mirror's Edge.
+                        Check out these cool screenshots from my raytracer, rollercoaster, and heightmap that I programmed for a computer graphics class using OpenGL.
                         <br />
-                        Solo project<br />
-                        <em>Git, C++, SDL, 3D Math</em><br />
+                        <br />
+                        Solo Project
+                        <br />
+
+                        <em>C++, C, GLSL, OpenGL, 3D Math</em><br />
+
                     </p>
                 </div>
             </div>
@@ -103,45 +107,96 @@
     <!-- End #experience -->
 
     <div id="education">
-        <h3>Programming</h3>
+        <h2 class="heading">Raytracer</h2>
+
         <div class="education-block">
             <p>
                 <ul>
                     <li>
-                        Implemented vehicle controls (steering, acceleration, deceleration).
+                        Uniformly casted rays from camera location with one ray per pixel.
                     </li>
                     <li>
-                        Moved the camera in 3D space to give impression of speed and increased FOV when going fast.
+                        Wrote ray-object intersection code.
                     </li>
                     <li>
-                        Created waypoints and utilized 3D math to assure that the AI would steer into each waypoint to complete laps.
-                    </li>
-                    <li>
-                        Added ability to fall off the race track and respawn at a recent checkpoint.
-                    </li>
-                    <li>
-                        Integrated audio to play race start, normal laps, and last lap music.
+                        Implemented illumination equations.
                     </li>
                 </ul>
             </p>
 
         </div>
-      
-        <h3>Features</h3>
         <div class="education-block">
             <div class="gallery">
-                <a href="https://gyazo.com/042dd352e290427250fd580595a204ea"><img src="https://i.gyazo.com/042dd352e290427250fd580595a204ea.gif" alt="Image from Gyazo" width="996" /></a>
-                <div class="desc">Camera changes on going fast</div>
+                <a href="https://gyazo.com/65588c7e82b5e17fd527ab3e160c3ca6"><img src="https://i.gyazo.com/65588c7e82b5e17fd527ab3e160c3ca6.png" alt="Image from Gyazo" width="596" /></a>
             </div>
             <div class="gallery">
-                <a href="https://gyazo.com/d45612f6eeffbc47c25e14c78a689823"><img src="https://i.gyazo.com/d45612f6eeffbc47c25e14c78a689823.gif" alt="Image from Gyazo" width="974" /></a>
-                <div class="desc">Fall off racetrack and respawn at checkpoint.</div>
+                <a href="https://gyazo.com/ca3baae1d83d64e729fada42684830ae"><img src="https://i.gyazo.com/ca3baae1d83d64e729fada42684830ae.png" alt="Image from Gyazo" width="589" /></a>
             </div>
             <div class="gallery">
-                <a href="https://gyazo.com/c1a13c651386eb4716b7d919baedfcfb"><img src="https://i.gyazo.com/c1a13c651386eb4716b7d919baedfcfb.gif" alt="Image from Gyazo" width="966" /></a>
-                <div class="desc">Accurate position indicator. In this example, went from 2nd to 1st place.</div>
+                <a href="https://gyazo.com/670efa27c6121b2b22acdf579282a317"><img src="https://i.gyazo.com/670efa27c6121b2b22acdf579282a317.png" alt="Image from Gyazo" width="599" /></a>
             </div>
         </div>
+        <h2 class="heading">Rollercoaster</h2>
+        <div class="education-block">
+            <p>
+                <ul>
+                    <li>
+                        Programmed camera move to follow the track of the rollercoaster.
+                    </li>
+                    <li>
+                        Rendered track utilizing spline functions.
+                    </li>
+                    <li>
+                        Created phong shader for track.
+                    </li>
+                    <li>
+                        Created vertex and fragment shader to allow for texture mapping on the ground.
+                    </li>
+                </ul>
+            </p>
+
+        </div>
+        <div class="education-block">
+            <div class="gallery">
+                <a href="https://gyazo.com/be2ee76beee909feda42b3942dd2d318"><img src="https://i.gyazo.com/be2ee76beee909feda42b3942dd2d318.gif" alt="Image from Gyazo" width="1274" /></a>
+            </div>
+        </div>
+        <h2 class="heading">Height Map</h2>
+
+        <div class="education-block">
+            <p>
+                <ul>
+                    <li>
+                        Programmed vertex shaders to render smoothened and unsmoothened heightmaps.
+                    </li>
+                    <li>
+                        Allowed user to change rendering modes from point, wireframe, and solid triangle.
+                    </li>
+                    <li>
+                        Implemented 3D camera transformations, transformations of landscape (translate/rotate/scale).
+                    </li>
+                </ul>
+            </p>
+
+        </div>
+        <div class="education-block">
+            <div class="gallery">
+                <a href="https://gyazo.com/0272db14547c5138eab972e3d9eca757"><img src="https://i.gyazo.com/0272db14547c5138eab972e3d9eca757.png" alt="Image from Gyazo" width="1075" /></a>
+                <div class="desc">Point rendering.</div>
+            </div>
+            <div class="gallery">
+                <a href="https://gyazo.com/a5d99d6fa61040fefa358c7308be8042"><img src="https://i.gyazo.com/a5d99d6fa61040fefa358c7308be8042.png" alt="Image from Gyazo" width="797" /></a>
+                <div class="desc">Wireframe rendering.</div>
+            </div>
+            <div class="gallery">
+                <a href="https://gyazo.com/be072237f586a8e92cbb5cea6d774bdc"><img src="https://i.gyazo.com/be072237f586a8e92cbb5cea6d774bdc.png" alt="Image from Gyazo" width="997" /></a>
+                <div class="desc">Triangle + smooth rendering.</div>
+            </div>
+        </div>
+
+
+
+
 
         <!-- End .education-block -->
     </div>
@@ -184,15 +239,15 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/OPENGL.jpg" />
+                        <a href="https://gyazo.com/8ace36c5b3fc9ea9b0b208549872c4d3"><img src="https://i.gyazo.com/8ace36c5b3fc9ea9b0b208549872c4d3.png" alt="Image from Gyazo" width="1019" /></a>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>OpenGL Stuff</h3>
+                        <h3>Mario Kart</h3>
                         <p>
-                            Check out my raytracer, rollercoaster, and heightmap built in OpenGL!
+                            I programmed vehicle controls for players and CPUs in my version of Mario Kart!
                         </p>
-                        <a href="opengl.html#about">View Project</a>
+                        <a href="mariokart.html#about">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -216,7 +271,6 @@
         </div>
     </div>
     <!-- End #projects -->
-
     <!-- End #skills -->
 
     <div id="contact">
