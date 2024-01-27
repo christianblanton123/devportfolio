@@ -167,15 +167,7 @@ AutoTest.Net/
 # Installshield output folder
 [Ee]xpress/
 
-# DocProject is a documentation generator add-in
-DocProject/buildhelp/
-DocProject/Help/*.HxT
-DocProject/Help/*.HxC
-DocProject/Help/*.hhc
-DocProject/Help/*.hhk
-DocProject/Help/*.hhp
-DocProject/Help/Html2
-DocProject/Help/html
+
 
 # Click-Once directory
 publish/
@@ -306,13 +298,6 @@ node_modules/
 *.ncb
 *.aps
 
-# Visual Studio LightSwitch build output
-**/*.HTMLClient/GeneratedArtifacts
-**/*.DesktopClient/GeneratedArtifacts
-**/*.DesktopClient/ModelManifest.xml
-**/*.Server/GeneratedArtifacts
-**/*.Server/ModelManifest.xml
-_Pvt_Extensions
 
 # Paket dependency manager
 .paket/paket.exe
